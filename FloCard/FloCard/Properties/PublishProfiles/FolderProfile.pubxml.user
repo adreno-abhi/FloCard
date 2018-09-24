@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Abhijeet\Documents\Visual Studio 2017\Projects\FloCard\FloCard\bin\Release\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/.DS_Store">
+      <publishTime>07/02/2018 17:15:06</publishTime>
+    </File>
+    <File Include="assets/css/material-kit.css">
+      <publishTime>07/27/2018 14:57:02</publishTime>
+    </File>
+    <File Include="assets/css/material-kit.css.map">
+      <publishTime>07/02/2018 17:14:18</publishTime>
+    </File>
+    <File Include="assets/css/material-kit.min.css">
+      <publishTime>07/02/2018 17:23:20</publishTime>
+    </File>
+    <File Include="assets/demo/demo.css">
+      <publishTime>05/02/2018 14:38:38</publishTime>
+    </File>
+    <File Include="assets/img/apple-icon.png">
+      <publishTime>07/26/2018 16:16:11</publishTime>
+    </File>
+    <File Include="assets/img/customloader.gif">
+      <publishTime>07/26/2018 10:28:36</publishTime>
+    </File>
+    <File Include="assets/img/favicon.png">
+      <publishTime>07/26/2018 16:16:11</publishTime>
+    </File>
+    <File Include="assets/img/FLO_teal.png">
+      <publishTime>04/30/2018 13:42:13</publishTime>
+    </File>
+    <File Include="assets/img/img.jpg">
+      <publishTime>07/30/2018 16:30:59</publishTime>
+    </File>
+    <File Include="assets/img/linkedin-social-media-logo-7.png">
+      <publishTime>04/30/2018 11:42:34</publishTime>
+    </File>
+    <File Include="assets/img/logo-black.jpg">
+      <publishTime>07/26/2018 17:39:50</publishTime>
+    </File>
+    <File Include="assets/img/logo-black.png">
+      <publishTime>07/26/2018 16:16:11</publishTime>
+    </File>
+    <File Include="assets/img/logo-v2.png">
+      <publishTime>07/29/2018 19:48:12</publishTime>
+    </File>
+    <File Include="assets/img/logo-white.jpg">
+      <publishTime>07/26/2018 17:42:26</publishTime>
+    </File>
+    <File Include="assets/img/logo-white.png">
+      <publishTime>07/26/2018 16:16:12</publishTime>
+    </File>
+    <File Include="assets/img/logo-with-name-v2.png">
+      <publishTime>07/29/2018 19:43:38</publishTime>
+    </File>
+    <File Include="assets/img/profile_city.jpg">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/js/core/bootstrap-material-design.min.js">
+      <publishTime>05/29/2018 12:54:48</publishTime>
+    </File>
+    <File Include="assets/js/core/jquery.min.js">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/js/core/popper.min.js">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/js/html2canvas.js">
+      <publishTime>07/29/2018 21:50:59</publishTime>
+    </File>
+    <File Include="assets/js/jquery.nicescroll.min.js">
+      <publishTime>07/19/2017 11:56:06</publishTime>
+    </File>
+    <File Include="assets/js/material-kit.js">
+      <publishTime>07/02/2018 17:14:32</publishTime>
+    </File>
+    <File Include="assets/js/material-kit.js.map">
+      <publishTime>07/02/2018 17:14:34</publishTime>
+    </File>
+    <File Include="assets/js/material-kit.min.js">
+      <publishTime>07/02/2018 17:14:34</publishTime>
+    </File>
+    <File Include="assets/js/plugins/bootstrap-datetimepicker.js">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/js/plugins/jquery.sharrre.js">
+      <publishTime>07/02/2018 17:07:12</publishTime>
+    </File>
+    <File Include="assets/js/plugins/moment.min.js">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/js/plugins/nouislider.min.js">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit.scss">
+      <publishTime>06/28/2018 15:57:04</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/bootstrap-grid.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/bootstrap-reboot.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/bootstrap.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_alert.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_background-variant.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_badge.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_border-radius.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_box-shadow.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_breakpoints.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_buttons.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_caret.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_clearfix.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_float.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_forms.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_gradients.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_grid-framework.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_grid.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_hover.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_image.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_list-group.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_lists.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_nav-divider.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_navbar-align.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_pagination.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_reset-text.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_resize.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_screen-reader.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_size.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_table-row.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_text-emphasis.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_text-hide.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_text-truncate.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_transition.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/mixins/_visibility.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_align.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_background.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_borders.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_clearfix.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_display.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_embed.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_flex.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_float.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_position.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_screenreaders.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_sizing.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_spacing.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_text.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/utilities/_visibility.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_alert.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_badge.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_breadcrumb.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_button-group.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_buttons.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_card.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_carousel.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_close.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_code.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_custom-forms.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_dropdown.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_forms.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_functions.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_grid.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_images.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_input-group.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_jumbotron.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_list-group.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_media.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_mixins.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_modal.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_nav.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_navbar.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_pagination.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_popover.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_print.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_progress.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_reboot.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_root.scss">
+      <publishTime>06/20/2018 17:57:26</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_tables.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_tooltip.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_transitions.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_type.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_utilities.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/bootstrap/scss/_variables.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/cards/_card-carousel.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/cards/_card-login.scss">
+      <publishTime>06/27/2018 18:14:14</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/cards/_card-plain.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_alert.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_animations.scss">
+      <publishTime>06/28/2018 17:02:06</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_breakpoints.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_buttons.scss">
+      <publishTime>05/02/2018 14:32:42</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_colored-shadows.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_drawer.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_forms.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_hover.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_layout.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_navbar-colors.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_navs.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_type.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/mixins/_utilities.scss">
+      <publishTime>05/04/2018 13:37:06</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/plugins/_plugin-datetime-picker.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/plugins/_plugin-nouislider.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_body.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_bootstrap-material-design-base.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_bootstrap-material-design.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_brand.scss">
+      <publishTime>06/26/2018 11:48:16</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_buttons.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_card.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_carousel.scss">
+      <publishTime>06/26/2018 17:46:10</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_code.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_colors-map.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_colors.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_custom-forms.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_drawer.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_dropdown.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_forms.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_layout.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_list-group.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_menu.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_modals.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_nav.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_pagination.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_shadow.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_snackbar.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_spacing.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_state.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_tables.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_tooltip.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/variables/_type.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_alerts.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_badges.scss">
+      <publishTime>05/02/2018 17:10:26</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_buttons.scss">
+      <publishTime>06/22/2018 17:03:04</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_cards.scss">
+      <publishTime>06/28/2018 11:05:48</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_carousel.scss">
+      <publishTime>06/26/2018 17:47:20</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_checkboxes.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_core-bootstrap.scss">
+      <publishTime>07/02/2018 16:18:50</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_custom-forms.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_drawer.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_dropdown.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_example-pages.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_footers.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_forms.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_headers.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_images.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_info-areas.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_input-group.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_layout.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_list-group.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_misc.scss">
+      <publishTime>07/02/2018 16:27:12</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_mixins.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_modal.scss">
+      <publishTime>06/29/2018 16:18:34</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_nav.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_navbar.scss">
+      <publishTime>06/28/2018 17:08:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_pagination.scss">
+      <publishTime>07/02/2018 12:05:12</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_pills.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_popover.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_progress.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_radios.scss">
+      <publishTime>06/28/2018 14:52:18</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_reboot.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_responsive.scss">
+      <publishTime>06/29/2018 12:50:10</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_ripples.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_switches.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_tabs.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_togglebutton.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_tooltip.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_type.scss">
+      <publishTime>05/02/2018 13:53:54</publishTime>
+    </File>
+    <File Include="assets/scss/material-kit/_variables.scss">
+      <publishTime>07/02/2018 16:15:28</publishTime>
+    </File>
+    <File Include="bin/FloCard.dll">
+      <publishTime>09/22/2018 10:11:56</publishTime>
+    </File>
+    <File Include="bin/FloCard.pdb">
+      <publishTime>09/22/2018 10:11:56</publishTime>
+    </File>
+    <File Include="bin/MessagingToolkit.QRCode.dll">
+      <publishTime>04/18/2012 12:05:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/05/2017 09:59:26</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/24/2018 17:44:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>04/13/2017 15:47:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.Process.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.DriveInfo.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Thread.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/13/2017 15:47:48</publishTime>
+    </File>
+    <File Include="bin/System.Drawing.Common.dll">
+      <publishTime>05/15/2018 13:29:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Extensions.dll">
+      <publishTime>11/05/2015 20:36:48</publishTime>
+    </File>
+    <File Include="callback.aspx">
+      <publishTime>07/28/2018 21:00:52</publishTime>
+    </File>
+    <File Include="FloCard.aspx">
+      <publishTime>09/22/2018 10:00:37</publishTime>
+    </File>
+    <File Include="FlocardForm.aspx">
+      <publishTime>09/18/2018 15:42:10</publishTime>
+    </File>
+    <File Include="FloCardOld.aspx">
+      <publishTime>09/18/2018 15:05:30</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>09/22/2018 09:35:21</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/18/2018 15:08:48</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
