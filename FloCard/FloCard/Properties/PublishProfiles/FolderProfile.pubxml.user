@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
-This file is used by the publish/package process of your Web project. You can customize the behavior of this process
-by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+https://go.microsoft.com/fwlink/?LinkID=208121. 
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\Abhijeet\Documents\Visual Studio 2017\Projects\FloCard\FloCard\bin\Release\PublishOutput</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\HP\Documents\Visual Studio 2017\Projects\FloCard_New\FloCard\bin\app.publish\</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="assets/.DS_Store">
@@ -30,14 +28,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="assets/img/customloader.gif">
       <publishTime>07/26/2018 10:28:36</publishTime>
     </File>
+    <File Include="assets/img/error.png">
+      <publishTime>11/26/2018 13:13:03</publishTime>
+    </File>
     <File Include="assets/img/favicon.png">
       <publishTime>07/26/2018 16:16:11</publishTime>
     </File>
     <File Include="assets/img/FLO_teal.png">
       <publishTime>04/30/2018 13:42:13</publishTime>
     </File>
+    <File Include="assets/img/Google-Play-Store-Logo.png">
+      <publishTime>01/01/2019 14:36:53</publishTime>
+    </File>
     <File Include="assets/img/img.jpg">
       <publishTime>07/30/2018 16:30:59</publishTime>
+    </File>
+    <File Include="assets/img/Legacy.png">
+      <publishTime>11/26/2018 16:51:56</publishTime>
     </File>
     <File Include="assets/img/linkedin-social-media-logo-7.png">
       <publishTime>04/30/2018 11:42:34</publishTime>
@@ -59,6 +66,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="assets/img/logo-with-name-v2.png">
       <publishTime>07/29/2018 19:43:38</publishTime>
+    </File>
+    <File Include="assets/img/no-image.png">
+      <publishTime>01/02/2019 16:11:00</publishTime>
     </File>
     <File Include="assets/img/profile_city.jpg">
       <publishTime>05/02/2018 13:53:54</publishTime>
@@ -601,16 +611,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/02/2018 16:15:28</publishTime>
     </File>
     <File Include="bin/FloCard.dll">
-      <publishTime>09/22/2018 10:11:56</publishTime>
+      <publishTime>06/25/2020 10:30:04</publishTime>
     </File>
     <File Include="bin/FloCard.pdb">
-      <publishTime>09/22/2018 10:11:56</publishTime>
+      <publishTime>06/25/2020 10:30:04</publishTime>
     </File>
     <File Include="bin/MessagingToolkit.QRCode.dll">
       <publishTime>04/18/2012 12:05:14</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/05/2017 09:59:26</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Bson.dll">
+      <publishTime>12/12/2017 15:32:14</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.Core.dll">
+      <publishTime>12/12/2017 15:32:16</publishTime>
+    </File>
+    <File Include="bin/MongoDB.Driver.dll">
+      <publishTime>12/12/2017 15:32:16</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>03/24/2018 17:44:14</publishTime>
@@ -768,20 +787,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="callback.aspx">
       <publishTime>07/28/2018 21:00:52</publishTime>
     </File>
+    <File Include="ErrorPage.aspx">
+      <publishTime>11/26/2018 13:13:28</publishTime>
+    </File>
     <File Include="FloCard.aspx">
-      <publishTime>09/22/2018 10:00:37</publishTime>
+      <publishTime>06/25/2020 10:25:39</publishTime>
     </File>
     <File Include="FlocardForm.aspx">
-      <publishTime>09/18/2018 15:42:10</publishTime>
-    </File>
-    <File Include="FloCardOld.aspx">
-      <publishTime>09/18/2018 15:05:30</publishTime>
+      <publishTime>01/02/2019 22:03:48</publishTime>
     </File>
     <File Include="index.aspx">
-      <publishTime>09/22/2018 09:35:21</publishTime>
+      <publishTime>12/06/2019 18:38:29</publishTime>
+    </File>
+    <File Include="privacy_policy.html">
+      <publishTime>01/02/2019 08:14:52</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/18/2018 15:08:48</publishTime>
+      <publishTime>06/25/2020 10:30:04</publishTime>
     </File>
   </ItemGroup>
 </Project>

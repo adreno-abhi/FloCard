@@ -11,6 +11,7 @@
         <div>
             <img src="~/assets/img/customloader.gif" runat="server" id="img1"/>
 
+            <%--<asp:Button ID="Button1" runat="server" Text="Download" OnClick="Button1_Click" />--%>
         </div>
     </form>
 </body>

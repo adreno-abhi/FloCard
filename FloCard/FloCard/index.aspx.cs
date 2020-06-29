@@ -8,8 +8,8 @@ using System.Web.UI.WebControls;
 namespace FloCard
 {
     public partial class index : System.Web.UI.Page
-    {        
-        public string redirect_url = "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=YOUR_LINKEDIN_CLIENT_ID&redirect_uri=APP_REDIRECT_URL&state=LINKED_API_STATE_VALUE&scope=r_basicprofile%20r_emailaddress";
+    {
+        public string redirect_url = "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=[client_id]&redirect_uri=http%3A%2F%2Flocalhost%3A33861%2Fcallback.aspx&state=366pitest&scope=r_liteprofile%20r_emailaddress";
 
         protected void Page_Load(object sender, EventArgs e)
         {

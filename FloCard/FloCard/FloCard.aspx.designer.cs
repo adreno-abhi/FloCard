@@ -22,6 +22,15 @@ namespace FloCard {
         protected global::System.Web.UI.HtmlControls.HtmlImage usrImg;
         
         /// <summary>
+        /// ImgQr1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage ImgQr1;
+        
+        /// <summary>
         /// flocardData control.
         /// </summary>
         /// <remarks>
@@ -40,13 +49,13 @@ namespace FloCard {
         protected global::System.Web.UI.WebControls.Button btnExportCard;
         
         /// <summary>
-        /// imgQr control.
+        /// txtEmbed1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlImage imgQr;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea txtEmbed1;
         
         /// <summary>
         /// qrData control.
@@ -56,14 +65,5 @@ namespace FloCard {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField qrData;
-        
-        /// <summary>
-        /// btnExportQR control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnExportQR;
     }
 }
